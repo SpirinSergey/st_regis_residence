@@ -1,0 +1,92 @@
+{% extends 'main/layout/layout.html' %}
+{% load static %}
+
+{% block title %}Amenities{% endblock %}
+{% block activ-amenities %}active{% endblock %}
+
+{% block content %}
+
+    <section class="style-background amenities-background-image">
+        <section class="container-fluid mx-0">
+            <div class="row align-items-center my-back">
+                <div class="col-lg-6">
+                    <div class="container text-center" style="vertical-align: middle;">
+                        <h2 class="display-4 text-uppercase mb-3"><strong><b>amenities</b></strong></h2>
+                        <hr class="mb-3" style="color: #b8b897; height: 1px; opacity: 1">
+                        <p class="fs-4 about-text text-uppercase mb-3">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Asperiores deserunt distinctio doloribus illo ipsum, natus nisi sed
+                            soluta sunt ut.</p>
+                        <a href="{% url 'about' %}">
+                            <button class="but-brown-rad text-uppercase mb-3">SHOW FLOORPLANS</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 px-0">
+                    <img class="image-style" src="{% static 'main/img/88.jpg' %}" alt="Bentley Residences">
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid my-back">
+            <div class="row text-center">
+                <div class="col-lg-12 mt-5 mb-5">
+                    <div class="col-lg-9 container text-center">
+                        <h2 class="display-6 text-uppercase mb-3 mt-3">Lorem ipsum dolor sit amet, consectetur.</h2>
+                        <hr style="color: #b8b897; height: 2px; opacity: 1">
+                        <p class="fs-4 about-text text-uppercase mb-3 pt-2">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Asperiores deserunt distinctio doloribus illo ipsum, natus nisi sed
+                            soluta sunt ut.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid">
+            <div class="row my-back-2 pb-4 pt-4">
+                <div class="col-lg-6"><img class="image-style" style="height: 70vh;"
+                                           src="{% static 'main/img/777.jpg' %}"
+                                           alt="Bentley Residences"></div>
+                <div class="col-lg-6"><img class="image-style" style="height: 70vh;"
+                                           src="{% static 'main/img/999.jpg' %}"
+                                           alt="Bentley Residences"></div>
+            </div>
+        </section>
+
+        <section class="container-fluid mx-0 mb-0">
+            <div class="row align-items-center my-back  pt-5">
+                <div class="col-lg-6 px-0 tumbler-on-992">
+                    <img class="image-style" src="{% static 'main/img/666.jpg' %}" alt="Bentley Residences">
+                </div>
+                <div class="col-lg-6">
+                    <div class="container text-center">
+                        <h2 class="display-4 text-uppercase mb-3">Lorem ipsum dolor</h2>
+                        <hr class="mb-3" style="color: #b8b897; height: 1px; opacity: 1">
+                        <p class="fs-4 text-uppercase mb-3">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Atque autem cumque cupiditate dicta eos iste laudantium necessitatibus
+                            sequi unde vitae.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 px-0 tumbler-off-992">
+                    <img class="image-style" src="{% static 'main/img/666.jpg' %}" alt="Bentley Residences">
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid my-back">
+            <div class="row text-center">
+                <div class="col-lg-12 mt-5 mb-5">
+                    <div class="col-lg-9 container text-center">
+                        <hr style="color: #b8b897; height: 2px; opacity: 1">
+                        <p class="fs-4 about-text text-uppercase mb-3 pt-2">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Asperiores deserunt distinctio doloribus illo ipsum, natus nisi sed
+                            soluta sunt ut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, nisi?
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, odit?</p>
+                        <hr style="color: #b8b897; height: 2px; opacity: 1">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+{% endblock %}
